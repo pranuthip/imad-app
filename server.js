@@ -12,6 +12,9 @@ app.get('/', function (req, res) {
 app.get('/article-one', function(req,res){
     res.send('Article one is serving');
 });
+app.get('/article-four', function(req,res){
+    res.send('Article four is serving ');
+});
 
 app.get('/article-two', function(req,res){
     res.send('Article two is serving');

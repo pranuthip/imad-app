@@ -8,5 +8,6 @@ element.innerHTML = "My new html content in main js file";
 var img = document.getElementById('madi');
 
 img.onclick = function() {
+    
   img.style.marginleft = '100px' ;  
 };

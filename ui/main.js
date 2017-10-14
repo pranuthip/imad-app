@@ -6,8 +6,11 @@ element.innerHTML = "My new html content in main js file";
 
 // To move the image
 var img = document.getElementById('madi');
-
+var marginLeft = 0;
+function moveRight ()  {
+    marginLeft = marginLeft + 1;
+    img.style.marginLeft = maginLeft + 'px';
+}
 img.onclick = function() {
-    
-  img.style.marginleft = '100px' ;  
+  var interval = setInterval(moveRight,50);  
 };

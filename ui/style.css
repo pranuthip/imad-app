@@ -20,10 +20,10 @@ body {
 }
 
 .container {
-             max-width : 800px;
-             margin : 0 auto ;
+             max-width: 800px;
+             margin: 0 auto;
              color: #3F51B5;
-             background-color: lightgrey;
+             background-color: #ffffff;
              margin-top: 75px;
              padding-top: 60px;
              padding-right: 20px;

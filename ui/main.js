@@ -3,8 +3,7 @@ console.log('Loaded!');
 
 var button = document.getElementById('counter');
 var counter = 0;
-
-button.onClick = function(){
+ button.onClick = function(){
   //make a request to the counterendpoint
   
   //capture the response & store it in a variable

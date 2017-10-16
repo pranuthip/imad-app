@@ -96,6 +96,15 @@ app.get('/:articleName', function(req,res){
     res.send(createTemplate(articles[articleName]));
 });
 
+var names =[];
+app.get('/submit-name/:name',function(req,res){
+   //get the name from request
+   var name = req.params.name;
+   
+   name.push(name);
+   //JSON:Javascript object notation
+   res.send(JSON.stringify(names));
+});
 
  
 app.get('/ui/style.css', function (req, res) {

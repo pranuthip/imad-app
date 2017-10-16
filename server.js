@@ -89,7 +89,7 @@ app.get('/', function (req, res) {
 });
 
 var names =[];
-app.get('/submit-name',function(req,res){//submit-name?name=xxxx
+app.get('/submit-name',function(req,res){//URL:submit-name?name=xxxx
    //get the name from request
    var name = req.query.name;
    
